@@ -1,0 +1,37 @@
+/* Estilo para cada celula */
+td {
+  border: 2px solid #333;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+/* Estilo para o tabuleiro */
+table {
+  border-collapse: collapse;
+  position: absolute;
+  left: 50%;
+  margin-left: -155px;
+  top: 50px;
+}
+
+/* Estilo para a notificação que aparece ao acabar o jogo */
+.endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgbargba(4, 171, 25, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 300px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  font-size: 2em;
+}
